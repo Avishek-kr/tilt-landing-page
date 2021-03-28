@@ -4,7 +4,6 @@ import styled from "styled-components";
 const HeroText = () => {
     return (
         <Container>
-        <div>
             <h5>Online education for people of all ages</h5>
             <h1>Learn</h1>
             <h1>Anything</h1>
@@ -13,8 +12,7 @@ const HeroText = () => {
             <BtnContainer>
                 <button className='readmore'>Read More</button>
                 <button>7 Day Free Trial</button>
-                </BtnContainer>
-        </div>
+            </BtnContainer>
         </Container>
     )
 }

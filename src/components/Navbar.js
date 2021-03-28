@@ -2,6 +2,7 @@ import React, {useState} from 'react'
 import styled from 'styled-components'
 
 
+
 const Navbar = () => {
     const [isOpen,setIsOpen] = useState(false);
 
